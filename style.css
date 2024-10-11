@@ -46,7 +46,7 @@ flex-wrap: wrap;
 justify-content: center;
 
 }
-/* projectのバランスおしえてよたちゃ！ */
+/* projectのバランス */
 .project {
 /*100% -(padding+margin)/2 */
 width: 45%;
@@ -68,12 +68,15 @@ text-align: center;
 #img_hokkaido{
     width: auto;
     height: 500px;
-
+    max-width: 100%;
+    max-height: auto;
 }
 
 #img_hobby{
     width: auto;
     height: 500px;
+    max-width: 100%;
+    max-height: auto;
 
 }
 
@@ -94,7 +97,7 @@ color: white;
 
  /* "active" クラスの文字サイズを指定 */
 
- /* よたちゃおしえてよたちゃ表題を太字にしたい */
+ /* 太字にしたい */
 .active {
 font-size: 24px; /* 大きさを調整 */
 font-weight: bold; /* 太字にする場合 */
